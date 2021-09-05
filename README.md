@@ -3,9 +3,9 @@ Pi Switch is a open source project meant as a "long range switch"
 
 # About
 Pi Switch is a project that turns your Raspberry Pi into multi purpouse on/off switch for your : 
-*servers
-*computers
-*and theoreticaly anything you want to
+* servers
+* computers
+* and theoreticaly anything you want to
   
   
 # website
