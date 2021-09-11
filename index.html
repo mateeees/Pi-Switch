@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Pi Switch</title>
+    <!-- link color -->
+    <style>
+        #link {
+            color: #DC7468;   
+            
+        }
+    </style>
+
+</head>
+
+                                                          <!--
+                                                              add:
+                                                              
+                                                         
+                                                              link color #DC7468
+                                                              tabs color: #7D443E
+                                                          -->
+
+<body style="font-family: Arial;>
+
+    <!-- name and logo -->
+
+    <div align="left">
+        <img src="logo.png" width="90" height="90" align="left" />
+        <div align="center">
+            <h1 style="font-size: 4rem; color: #2d2e38">Pi Switch</h1>
+        </div>
+    </div>
+
+    <!--HOME MENU-->
+    <div align="center">
+        <a style="font-size: 25px" id="link" href="#home">Home</a>&nbsp;&nbsp;
+        <a style="font-size: 25px" id="link" href="#about">About</a>&nbsp;&nbsp;
+        <a style="font-size: 25px" id="link" href="#principle">Principle</a>&nbsp;&nbsp;
+        <a style="font-size: 25px" id="link" href="#versions">Versions</a>&nbsp;&nbsp;
+        <a style="font-size: 25px" id="link" href="#create">Create your own</a>&nbsp;&nbsp;
+        <a style="font-size: 25px" id="link" href="#feedback">Feedback</a>
+    </div>
+    <br />
+
+    <!--simple text betweeen name and picture-->
+    <a name="home"></a>
+    <div align="center">
+        This site is running on Raspberry Pi that also serves as the Pi Switch.
+    </div>
+    <br />
+
+    <!--PLACEHOLDER,eventualy a picture of done Pi Switch-->
+    <div align="center">
+        <img src="C:\Users\ticha\Desktop\Pi - Switch website\place holder.jfif" alt="PLACEHOLDER" width="600" height="400" />
+    </div>
+    <br />
+
+    <!--basic text about Pi Switch-->
+    <div align="center">
+        <p style="font-size: 20px">
+            Pi Switch is an open source project based on Raspberry pi. It's meant to be used as "long range switch".<br />
+            <a id="link" href="https://github.com/mateeees/Pi-Switch">Project's Github page</a>
+        </p>
+    </div>
+    <br />
+
+    <!-- aboutT-->
+    <a name="about"></a>
+
+    <p style="font-size: 30px; color: #7D443E">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; About:
+    </p>
+
+    <div align="center" style=" font-size: 18px">
+        As mentioned erlier, Pi switch is basically a "switch" you can turn on from anywhere in world where you have internet access. <br />
+        It uses Raspberry pi and external circuit ,which of you can find schematics,but also the board on my <a id="link" href="https://github.com/mateeees/Pi-Switch">Github page.</a> <br />
+        Pi Switch was invented as a solution to a problem, I needed to turn on my servers from anywhere i wanted to!<br />
+    </div>
+
+    <!--principle-->
+    <a name="principle"></a>
+
+    <p style="font-size: 30px; color: #7D443E">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Principle:
+    </p>
+
+    <div align="center" style=" font-size: 18px">
+        When you set it up, you can SSH to it (better way comming) and run a python script that asks you which one of the three devices. <br />
+        you want to turn on (default,but you can modify it). Your choice turns on one of the LEDs that shines directly to a photoresistor. <br />
+        The photoresistor lowers it's resistamce to minimum and shorts the circuit(tuns on the device),as if you pressed a button.<br />
+    </div>
+
+    <!--Versions-->
+    <a name="versions"></a>
+
+    <p style="font-size: 30px; color: #7D443E">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Versions:
+    </p>
+
+    <div align="center" style=" font-size: 18px">
+        <!-- XXX versions..... XXX version one with universal pcb and second one with printed pcb-->
+    </div>
+
+
+
+    <div align="center">
+
+
+        <table border="5" cellpadding="0" cellspacing="0" bordercolor="black">
+            <!--version 1.1-->
+            <tr align="center">
+                <td> &nbsp;&nbsp; Version 1.1  &nbsp;&nbsp;</td>
+                <td> <img src="place holder.jfif" alt="PLACEHOLDER" width="600" height="400" /> </td>
+                <td> Changes: <br /> I have designed a PCB. <br /> So new PCB design,printed one. <br /> Just improved version of the "original".</td>
+            </tr>
+            <!--version 1.0-->
+            <tr align="center">
+                <td> &nbsp;&nbsp; Version 1.0  &nbsp;&nbsp;</td>
+                <td> <img src="place holder.jfif" alt="PLACEHOLDER" width="600" height="400" /> </td>
+                <td> Changes: <br />The originial version. <br /> Made on this "universal" PCB not the printed one. <br /> Original solution to my problem. <br /> Just a test,but a working one!</td>
+            </tr>
+
+
+        </table>
+
+
+    </div>
+
+    <!--create your own-->
+    <a name="create"></a>
+
+    <p style="font-size: 30px; color: #7D443E">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Create your own
+    </p>
+    <!-- parts list-->
+    <div align="" style=" font-size: 18px">
+        <p style="font-size: 20px; color: #7D443E">Parts you will need:</p>
+        (All links mentioned here leads to czech sites,but by the model number you can find it elsewhere.)
+
+
+        <li>3* Photoresistor (i use the  <a id="link" href="https://www.gme.cz/fotorezistor-ldr5516">LDR5516</a> ). </li>
+        <li>Switch or pinhead jumper</li>
+        <li>Female piheaders </li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Crimping contants <a id="link" href="https://www.gme.cz/konpc-spk-pi-product-38628">KONPC-SPK-PI</a>,you can buy in bulk,they are really cheap,if you mess up. <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Plastic shells for crimping contacts <a id="link" href="https://www.gme.cz/konektor-konpc-spk-10">KONPC-SPK-10</a>,buy more of them,they are cheap and you are gona ruin a few by sniping it.  <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Female 2.54mm pinhead row <a id="link" href="https://www.gme.cz/konektor-114-ds80g">BL240G-V8,0</a>,buy more of them,they are cheap and you are gona ruin a few by sniping it.
+        <li>Male piheaders </li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Female pihead row (for switch and output ) <a id="link" href="https://www.gme.cz/oboustranny-kolik-s1g26-2-54mm">S1G26C</a>,buy more of them,they are cheap and you are gona ruin a few by sniping it.  <br />
+        <li>3* 100Ω Resistors</li>
+        <li>3* Good old 5mm white LEDs(3V)</li>
+        <li>Connector/pihead - for output you can either use some kind of 6pin connector or just pinheads.</li>
+        <li>PCB</li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -You can either use a multi-purpouse PCB or a printed one.(Order one based on my schematics or just download the gerber .ZIP file from my <a id="link" href="https://github.com/mateeees/Pi-Switch">Github page.</a>)
+        <li>soldering equipment</li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Soldering iron <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Tin(I recommend >1mm) <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Some good flux or a soldering paste <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Wet sponge for cleaning the soldering iron. <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -Additional soldering eqpiment like: third arm,soldering iron stand,magnifying glass.....
+        <li> Some generic cable</li>
+        <li>And obviosuly Raspberry Pi,theoreticly you can use any of the(except pico) but i reccomend one with a ethernet port.</li>
+    </div>
+
+    <!--optional-->
+    <div align="" style=" font-size: 18px">
+        <p style="font-size: 20px; color: #7D443E">Optional:</p>
+        <li>Wire strippers</li>
+        <li>clipers</li>
+        <li>Breadboard for testing</li>
+        <li>Some generic 2.54mm jumper wires</li>
+        <li>Shrink tubes (I recomend two diametrs,one for the LED assembly,and smaller one for generic pourpuses.)</li>
+    </div>
+    <!--video-->
+    <div align="" style=" font-size: 18px">
+        <p style="font-size: 20px; color: #7D443E">Build tutorial:</p>
+        <a id="link" href="">Video</a>
+        -just test for now
+    </div>
+
+
+    <!--tips-->
+    <div align="" style=" font-size: 18px">
+        <p style="font-size: 20px; color: #7D443E">Additional tips:</p>
+        <li>For PCB manufacturing I recomend <a id="link" href="https://jlcpcb.com/">JLC PCB</a>. It may take a while to get to you ,but if you use cheapest delivery option it's really resonable price.</li>
+        <li> If you are amateur in this kind of thing(like me) try it on the breadboard. </li>
+    </div>
+
+
+
+
+    <br />
+    <br />
+    <!--feedback-->
+    <a name="feedback"></a>
+
+    <p style="font-size: 30px; color: #7D443E">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Feedback:
+    </p>
+
+    <div align="center" style=" font-size: 18px">
+        If you have any feedback at all,comments,improvements,typos.... <br />
+        Please contact me at: piswitch.feedback@gmail.com or at my <a id="link" href="https://www.instagram.com/maty.tichy/">Instagram</a>. <br />
+        And if you decided to make one,please send me  picture of your creation,i would love to see it. Thanks! :D
+    </div>
+    <br />
+    <br />
+    
+
+    <!--Jeff-->
+    <div align="center">
+        I would just like to mention my main source of inspiration for this project. It was the <a id="link" href="https://www.pidramble.com/">Pi Dramble project</a> by <a id="link" href="https://www.youtube.com/c/JeffGeerling">Jeff Geerling</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+
+        TEST
+
+        <div align="left">
+        <p style="font-size: 18px ; color: #406A6F ">
+            Pi Switch can serve as switch for your: <br />
+            -Computers<br />
+            -Servers<br />
+            -Microcontrolers<br />
+            -Or anything you can get it working with!
+        </p>
+        </div>
+        -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
