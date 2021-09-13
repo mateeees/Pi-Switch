@@ -12,14 +12,9 @@ https://mateeees.github.io/Pi-Switch/
 
 ## How it works?
 Using the python script you turn on one of the three LEDs that shine directly to a photoresistor,which lowers its resistance to a minumum,"shorts the circuit" instead of a power switch, and turns on/off your device.
+Simple python script:
 
 ```python
-  
-  
-
-
-
-
 import RPi.GPIO as GPIO
 import time
 import sys
