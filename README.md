@@ -11,7 +11,7 @@ Pi Switch is a project that turns your Raspberry Pi into multi purpouse on/off s
 https://mateeees.github.io/Pi-Switch/
 
 ## How it works?
-Using the python script you turn on one of the three LEDs that shine directly to a photoresistor,which lowers its resistance to a minumum,"shorts the circuit" instead of a power switch, and turns on/off your device.
+Using the python script you turn on one of the three LEDs that shine directly to a photoresistor,which lowers its resistance to a minumum,"shorts the circuit" instead of a power switch, and turns on/off your device. 
 ## Simple python script:
 
 ```python
@@ -67,5 +67,7 @@ else:
 ```
 
 ## Resources
-All resources are opensource,so you can make it to!
+All resources are opensource,so you can make it to! <br/>
+All of these resources are specifically designed for my pourpuses,but it's really easy to change that. For the python script you can just use IDE to change that. <br/>
+something like
 
