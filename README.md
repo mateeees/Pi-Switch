@@ -93,4 +93,7 @@ if val == 1:
         print('\x1b[0;30;41m' + 'LED OFF' + '\x1b[0m')
         GPIO.output(24,GPIO.LOW)
 ```
+(Pins have been changed from 14 to 24) <br/> <br/>
+And for the PCB you can either use an editor(i use Eagle) to edit the .BRD file and then export it to your gerber files, or you can use the lazy method. You can just use some pinhead jumper wires to connect it to the different pin.
 
+## Parts list:
