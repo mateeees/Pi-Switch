@@ -102,9 +102,9 @@ And for the PCB you can either use an editor(i use Eagle) to edit the .BRD file 
 * 3* Photoresistor (i use the LDR5516 ).
 * Switch or pinhead jumper
 * Female piheaders
-       ** Crimping contants KONPC-SPK-PI,you can buy in bulk,they are really cheap,if you mess up.
-       -Plastic shells for crimping contacts KONPC-SPK-10,buy more of them,they are cheap and you are gona ruin a few by sniping it.
-       -Female 2.54mm pinhead row BL240G-V8,0,buy more of them,they are cheap and you are gona ruin a few by sniping it.
+       <br/>-Crimping contants KONPC-SPK-PI,you can buy in bulk,they are really cheap,if you mess up.
+       <br/>-Plastic shells for crimping contacts KONPC-SPK-10,buy more of them,they are cheap and you are gona ruin a few by sniping it.
+       <br/>-Female 2.54mm pinhead row BL240G-V8,0,buy more of them,they are cheap and you are gona ruin a few by sniping it.
 Male piheaders
        -Female pihead row (for switch and output ) S1G26C,buy more of them,they are cheap and you are gona ruin a few by sniping it.
 3* 100Ω Resistors
