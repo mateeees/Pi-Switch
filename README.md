@@ -105,29 +105,29 @@ And for the PCB you can either use an editor(i use Eagle) to edit the .BRD file 
        <br/>-Crimping contants KONPC-SPK-PI,you can buy in bulk,they are really cheap,if you mess up.
        <br/>-Plastic shells for crimping contacts KONPC-SPK-10,buy more of them,they are cheap and you are gona ruin a few by sniping it.
        <br/>-Female 2.54mm pinhead row BL240G-V8,0,buy more of them,they are cheap and you are gona ruin a few by sniping it.
-Male piheaders
-       -Female pihead row (for switch and output ) S1G26C,buy more of them,they are cheap and you are gona ruin a few by sniping it.
-3* 100Ω Resistors
-3* Good old 5mm white LEDs(3V)
-Connector/pihead - for output you can either use some kind of 6pin connector or just pinheads.
-PCB
-       -You can either use a multi-purpouse PCB or a printed one.(Order one based on my schematics or just download the gerber .ZIP file from my Github page.)
+* Male piheaders
+       <br/>-Female pihead row (for switch and output ) S1G26C,buy more of them,they are cheap and you are gona ruin a few by sniping it.
+* 3* 100Ω Resistors
+* 3* Good old 5mm white LEDs(3V)
+* Connector/pihead - for output you can either use some kind of 6pin connector or just pinheads.
+* PCB
+       <br/>-You can either use a multi-purpouse PCB or a printed one.(Order one based on my schematics or just download the gerber .ZIP file from my Github page.)
 soldering equipment
-       -Soldering iron
-       -Tin(I recommend >1mm)
-       -Some good flux or a soldering paste
-       -Wet sponge for cleaning the soldering iron.
-       -Additional soldering eqpiment like: third arm,soldering iron stand,magnifying glass.....
-Some generic cable
-And obviosuly Raspberry Pi,theoreticly you can use any of the(except pico) but i reccomend one with a ethernet port.
+       <br/>-Soldering iron
+       <br/>-Tin(I recommend >1mm),propably lead free
+       <br/>-Some good flux or a soldering paste
+       <br/>-Wet sponge for cleaning the soldering iron.
+       <br/>-Additional soldering eqpiment like: third arm,soldering iron stand,magnifying glass.....
+* Some generic cable
+* And obviosuly Raspberry Pi,theoreticly you can use any of the(except pico) but i reccomend one with a ethernet port.
 
 ### Optional:
 
-Wire strippers
-clipers
-Breadboard for testing
-Some generic 2.54mm jumper wires
-Shrink tubes (I recomend two diametrs,one for the LED assembly,and smaller one for generic pourpuses.)
+* Wire strippers
+* clipers
+* Breadboard for testing
+* Some generic 2.54mm jumper wires
+* Shrink tubes (I recomend two diametrs,one for the LED assembly,and smaller one for generic pourpuses.)
 
 
 
