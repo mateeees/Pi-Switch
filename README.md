@@ -69,5 +69,28 @@ else:
 ## Resources
 All resources are opensource,so you can make it to! <br/>
 All of these resources are specifically designed for my pourpuses,but it's really easy to change that. For the python script you can just use IDE to change that. <br/>
-something like
+Something like:
+```python
+if val == 1:
+        GPIO.setmode(GPIO.BCM)
+        GPIO.setwarnings(False)
+        GPIO.setup(14,GPIO.OUT)
+        print('\x1b[0;30;42m' + 'LED  ON' + '\x1b[0m')
+        GPIO.output(14,GPIO.HIGH)
+        time.sleep(2)
+        print('\x1b[0;30;41m' + 'LED OFF' + '\x1b[0m')
+        GPIO.output(14,GPIO.LOW)
+```
+To:
+```python
+if val == 1:
+        GPIO.setmode(GPIO.BCM)
+        GPIO.setwarnings(False)
+        GPIO.setup(24,GPIO.OUT)
+        print('\x1b[0;30;42m' + 'LED  ON' + '\x1b[0m')
+        GPIO.output(24,GPIO.HIGH)
+        time.sleep(2)
+        print('\x1b[0;30;41m' + 'LED OFF' + '\x1b[0m')
+        GPIO.output(24,GPIO.LOW)
+```
 
