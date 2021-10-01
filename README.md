@@ -25,7 +25,7 @@ And finish with:
 
 ### Soldering
 You will start with a PCB(i recommend the printed one) -additional tip-use pieace of masking tape to prevent scratching while using thhird arm 
-![Alt text](switch.jpg?raw=true "Optional Title")
+![Alt text](sol_start.jpg?raw=true "Optional Title")
 
 
 
