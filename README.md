@@ -15,9 +15,11 @@ You SSH to the Pi Switch and using the python script you turn on one of the thre
 ## Build tutorial:
 Start with assembling three LED assemblies. It is very easy,just put photoresistor and LED into shrink tube. <br/>
 Something like:
-![ass1](ass1)
+![ass1.jpg](ass1)
 and
-![ass2](ass2)
+![ass2.jpg](ass2)
+and finish with
+![ass3.jpg](ass3)
 
 
 
