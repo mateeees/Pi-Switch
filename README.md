@@ -29,7 +29,7 @@ You will start with a PCB(i recommend the printed one) -additional tip-use pieac
 
 And you solder everything on the top except thhe female piheaders. <br/>
 Bottom:
-![Alt text](sol_top.jpg?raw=true "Optional Title") <br/>
+![Alt text](sol_bot.jpg?raw=true "Optional Title") <br/>
 Top:
 ![Alt text](sol_up.jpg?raw=true "Optional Title")
 
