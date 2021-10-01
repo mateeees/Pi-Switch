@@ -17,9 +17,9 @@ Start with assembling three LED assemblies. It is very easy,just put photoresist
 Something like:
 ![Alt text](ass1.jpg?raw=true "Optional Title")](ass1)
 and
-![https://github.com/mateeees/Pi-Switch/blob/main/ass2.jpg](ass2)
+![Alt text](ass2.jpg?raw=true "Optional Title")](ass2)
 and finish with
-![https://github.com/mateeees/Pi-Switch/blob/main/ass3.jpg](ass3)
+![Alt text](ass3.jpg?raw=true "Optional Title")](ass3)
 
 
 
