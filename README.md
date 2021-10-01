@@ -12,7 +12,9 @@ https://mateeees.github.io/Pi-Switch/
 
 ## How it works?
 You SSH to the Pi Switch and using the python script you turn on one of the three LEDs that shine directly to a photoresistor,which lowers its resistance to a minumum,"shorts the circuit" instead of a power switch, and turns on/off your device. 
+
 ## Build tutorial:
+### LED assembly
 Start with assembling three LED assemblies. It is very easy,just put photoresistor and LED into shrink tube. <br/>
 You start with:
 ![Alt text](ass1.jpg?raw=true "Optional Title")
