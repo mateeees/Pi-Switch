@@ -27,7 +27,7 @@ And finish with:
 You will start with a PCB(i recommend the printed one) -additional tip-use pieace of masking tape to prevent scratching while using thhird arm 
 ![Alt text](sol_start.jpg?raw=true "Optional Title")
 
-And you solder everything on the top except thhe female piheaders. <br/.
+And you solder everything on the top except thhe female piheaders. <br/.>
 Bottom:
 ![Alt text](sol_top.jpg?raw=true "Optional Title")
 Top:
