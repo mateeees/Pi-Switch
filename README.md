@@ -13,29 +13,6 @@ https://mateeees.github.io/Pi-Switch/
 ## How it works?
 You SSH to the Pi Switch and using the python script you turn on one of the three LEDs that shine directly to a photoresistor,which lowers its resistance to a minumum,"shorts the circuit" instead of a power switch, and turns on/off your device. 
 
-## Build tutorial:
-### LED assembly
-Start with assembling three LED assemblies. It is very easy,just put photoresistor and LED into shrink tube. <br/>
-You start with:
-![Alt text](ass1.jpg?raw=true "Optional Title")
-Continue with:
-![Alt text](ass2.jpg?raw=true "Optional Title")
-And finish with:
-![Alt text](ass3.jpg?raw=true "Optional Title")
-
-### Soldering
-You will start with a PCB(i recommend the printed one) -additional tip-use pieace of masking tape to prevent scratching while using thhird arm 
-![Alt text](sol_start.jpg?raw=true "Optional Title")
-
-And you solder everything on the top except thhe female piheaders. <br/>
-Bottom:
-![Alt text](sol_bot.jpg?raw=true "Optional Title") <br/>
-Top:
-![Alt text](sol_up.jpg?raw=true "Optional Title")
-
-
-
-
 ## Simple python script:
 
 ```python
@@ -119,6 +96,31 @@ if val == 1:
 ```
 (Pins have been changed from 14 to 24) <br/> <br/>
 And for the PCB you can either use an editor(i use Eagle) to edit the .BRD file and then export it to your gerber files, or you can use the lazy method. You can just use some pinhead jumper wires to connect it to the different pin.
+
+## Build tutorial:
+### LED assembly
+Start with assembling three LED assemblies. It is very easy,just put photoresistor and LED into shrink tube. <br/>
+You start with:
+![Alt text](ass1.jpg?raw=true "Optional Title")
+Continue with:
+![Alt text](ass2.jpg?raw=true "Optional Title")
+And finish with:
+![Alt text](ass3.jpg?raw=true "Optional Title")
+
+### Soldering
+You will start with a PCB(i recommend the printed one) -additional tip-use pieace of masking tape to prevent scratching while using thhird arm 
+![Alt text](sol_start.jpg?raw=true "Optional Title")
+
+And you solder everything on the top except thhe female piheaders. <br/>
+Bottom:
+![Alt text](sol_bot.jpg?raw=true "Optional Title") <br/>
+Top:
+![Alt text](sol_up.jpg?raw=true "Optional Title")
+
+
+
+
+
 
 ## Parts list:
 
