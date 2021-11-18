@@ -3,7 +3,7 @@
 Pi Switch is a project that turns your Raspberry Pi into multi purpouse on/off switch for your : 
 * servers
 * computers
-* and theoreticaly anything you want to
+* and theoreticaly much more
   
   
 ## Website
